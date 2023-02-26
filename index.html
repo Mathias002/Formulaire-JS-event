@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_form.css">
+    <title>TUTO JS valider formulaires (événements)</title>
+</head>
+<body>
+
+    <h1> Valider formulaires (événements) </h1>
+    
+    <form name="inscription"> 
+        <input type="text" name="pseudo" placeholder="Pseudo"><br>
+        <input type="email" name="email" id="email" placeholder="Email"><br>
+        <input type="email" name="email-confirmation" id="email2" placeholder="Confirmation de l'email"><br>
+        <input type="password" name="mdp" placeholder="Mot de passe"><br>
+        <input type="submit" value="Inscription">
+    </form>
+
+    <p style="color: red;" id="erreur"></p>
+
+<script src="js/app.js"></script>
+</body>
+</html>
